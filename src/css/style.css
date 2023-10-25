@@ -1,0 +1,38 @@
+/*style.css*/
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	align-self: center;
+	margin: 5rem 0rem;
+}
+h1, h2{
+	text-decoration: underline;
+	margin-bottom: 1.5rem;
+}
+
+.expenses-list{
+	margin-top: 1.5rem;
+}
+
+.expenses-list ul{
+	margin: 0;
+	padding: 0;
+}
+.expenses-list ul li{
+	list-style: none;
+	background-color: rgb(255, 255, 204);
+	text-align: left;
+	padding: 5px 15px;
+    border-radius: 4px;
+    margin-top: 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-transform: capitalize;
+}
+.expenses-list ul li span{
+	float: right;
+}
